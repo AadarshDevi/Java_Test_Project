@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.SVGPath?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-radius: 20px; -fx-background-color: white;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.alphagnfss.testproject.Controller">
+   <top>
+      <HBox alignment="CENTER_RIGHT" prefHeight="20.0" prefWidth="1280.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="20.0" prefWidth="50.0" text="-" HBox.hgrow="NEVER" />
+            <Label alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="20.0" prefWidth="50.0" text="x" HBox.hgrow="NEVER" />
+         </children>
+      </HBox>
+   </top>
+   <center>
+      <Label fx:id="label" alignment="CENTER" prefHeight="69.098" prefWidth="69.098" style="-fx-background-radius: 10px;" stylesheets="@test.css" BorderPane.alignment="CENTER">
+         <graphic>
+            <SVGPath fx:id="svgPath" content="m 17.505502,62.038367 -4.014425,3.707368a 0.98700153,0.98700153 113.63858 0 0 -0.317368,0.725095v 4.134931a 0.36354982,0.36354982 45 0 0 0.36355,0.36355h 2.549776a 0.36354982,0.36354982 135 0 0 0.36355,-0.36355v -2.290778a 0.28974405,0.28974405 135 0 1 0.289744,-0.289744h 0.936477 0.936478a 0.28974405,0.28974405 45 0 1 0.289744,0.289744v 2.290778a 0.36354982,0.36354982 45 0 0 0.36355,0.36355h 2.549776a 0.36354982,0.36354982 135 0 0 0.36355,-0.36355V 66.47083A 0.98700138,0.98700138 66.361413 0 0 21.862536,65.745735L 17.84811,62.038367a 0.25249166,0.25249166 180 0 0 -0.342608,0z" fill="TRANSPARENT" scaleX="3.0" scaleY="3.0" stroke="BLACK" styleClass="svg-path" />
+         </graphic>
+      </Label>
+   </center>
+</BorderPane>
