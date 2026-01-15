@@ -1,0 +1,26 @@
+/* Default Style */
+.label {
+    -fx-background-color: #ffffff;
+}
+
+.label .svg-path {
+    -fx-stroke: black;
+}
+
+/* Hover Style */
+.label:hover {
+    -fx-background-color: #fafafa;
+}
+
+.label:hover .svg-path {
+    -fx-stroke: #00b7ff;
+}
+
+/* Selected Style */
+.label.selected {
+    -fx-background-color: #e2e2e2;
+}
+
+.label.selected .svg-path {
+    -fx-stroke: #6619ff;
+}

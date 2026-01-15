@@ -1,0 +1,13 @@
+.svg-button {
+    -fx-background-color: transparent;
+}
+.svg-button:hover {
+    -fx-background-color: #d6d6d6;
+}
+
+.svg-button-icon {
+    -fx-stroke: black;
+}
+.svg-button:hover .svg-button-icon {
+    -fx-stroke: #3d3d3d;
+}

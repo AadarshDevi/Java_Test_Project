@@ -1,0 +1,30 @@
+
+.stack-pane {
+    -fx-background-color: transparent;
+/* 
+    transition-property: -fx-background-color;
+    transition-duration: 0.125s; */
+
+}
+.stack-pane .add_svg_part_1 {
+    -fx-stroke: #00000022;
+
+    transition-property: -fx-stroke;
+    transition-duration: 0.125s;
+}
+.stack-pane .add_svg_part_2 {
+    -fx-fill: #00000022;
+
+    transition-property: -fx-fill;
+    transition-duration: 0.125s;
+}
+
+/* .stack-pane:hover {
+    -fx-background-color: transparent;
+} */
+.stack-pane:hover .add_svg_part_1 {
+    -fx-stroke: #00000080;
+}
+.stack-pane:hover .add_svg_part_2 {
+    -fx-fill: #00000080;
+}

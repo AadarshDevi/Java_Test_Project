@@ -17,8 +17,9 @@ public class SVGLabelButton {
 		selected = new AtomicBoolean(false);
 
 		label.setOnMouseClicked(event -> {
-			if(!isSelected()) {
+			if (!isSelected()) {
 				select();
+				setCSS();
 			} else {
 				deselect();
 			}
@@ -38,5 +39,9 @@ public class SVGLabelButton {
 	public void deselect() {
 		label.getStyleClass().remove("selected");
 		selected.set(false);
+	}
+
+	public void setCSS() {
+		
 	}
 }

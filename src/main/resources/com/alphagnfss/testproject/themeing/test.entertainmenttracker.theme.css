@@ -1,0 +1,145 @@
+
+/* ListView */
+
+.list-view {
+    -fx-background-color: #ff972f;
+}
+
+.list-view .list-cell {
+    -fx-background-color: #00c100;
+}
+
+.list-view .scroll-bar {
+    -fx-background-color: #b700ff;
+}
+
+.list-view .scroll-bar .increment-button {
+    -fx-background-color: #d0ff00;
+}
+
+.list-view .scroll-bar .decrement-button {
+    -fx-background-color: #4c00ff;
+}
+
+.list-view .scroll-bar .thumb {
+    -fx-background-color: #00ffff;
+    -fx-background-radius: 20px;
+    -fx-background-insets: 4;
+}
+
+.list-view .scroll-bar .thumb:hover {
+    -fx-background-color: #00aeff;
+}
+
+.list-view .scroll-bar .track {
+    -fx-background-color: #ff0000;
+}
+
+.list-view .scroll-bar .track-background {
+    -fx-background-color: #067600;
+}
+
+.list-view .scroll-bar .corner {
+    -fx-background-color: #ff00dd;
+}
+
+/* TextArea */
+
+.border-pane .anchor-pane .text-area {
+    -fx-border-width: 1px;
+    -fx-border-color: #ff00ee;
+    -fx-border-radius: 5px;
+}
+
+.border-pane .anchor-pane .text-area:focused {
+    -fx-border-color:  #e5ff00;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+}
+
+.border-pane .anchor-pane .text-area .content {
+    -fx-background-color: #00ff00;
+    -fx-border-width: 1px;
+    -fx-border-color: #ff0000;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.border-pane .anchor-pane .text-area .content:hover {
+    -fx-background-color: #adffad;
+    -fx-border-width: 1px;
+    -fx-border-color: #ffa6a6;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.border-pane .anchor-pane .text-area:focused .content {
+    -fx-border-color:  #8c8c8c;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+}
+
+.border-pane .anchor-pane .text-area .scroll-bar .increment-button,
+.border-pane .anchor-pane .text-area .scroll-bar .decrement-button {
+    -fx-border-color:  #ff9900;
+    -fx-background-color:  #ff9900;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+}
+
+.border-pane .anchor-pane .text-area .scroll-bar .increment-button:hover,
+.border-pane .anchor-pane .text-area .scroll-bar .decrement-button:hover {
+    -fx-background-color:  #ffe7c2;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+}
+
+.border-pane .anchor-pane .text-area .scroll-bar:vertical .increment-button {
+    -fx-background-color:  #ffffff;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+}
+
+.border-pane .anchor-pane .text-area .scroll-bar:vertical .increment-button:hover {
+    -fx-background-color:  #b17924;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+}
+
+.border-pane .anchor-pane .text-area .scroll-bar .increment-arrow,
+.border-pane .anchor-pane .text-area .scroll-bar .decrement-arrow {
+    -fx-border-color:  #00bbff;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+}
+
+.border-pane .anchor-pane .text-area .scroll-bar .increment-arrow:hover,
+.border-pane .anchor-pane .text-area .scroll-bar .decrement-arrow:hover {
+    -fx-border-color:  #e2f7ff;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+}
+
+.border-pane .anchor-pane .text-area .scroll-bar .thumb {
+    -fx-background-color: #00fffb;
+    -fx-background-radius: 20px;
+    -fx-background-insets: 4;
+}
+
+.border-pane .anchor-pane .text-area .scroll-bar .thumb:hover {
+    -fx-background-color:  #bffffe;
+}
+
+.border-pane .anchor-pane .text-area .scroll-bar .track {
+    -fx-background-color:  #00a92a;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+}
+
+.border-pane .anchor-pane .text-area .scroll-bar .corner {
+    -fx-background-color:  #afa4ff;
+}
+
+.border-pane .anchor-pane .text-area .scroll-bar .track-background {
+    -fx-background-color: #00bbff;
+}

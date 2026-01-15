@@ -1,0 +1,61 @@
+
+
+.list-view {
+    -fx-background-color: transparent;
+    -fx-background-radius: 10px;
+    -fx-border-color: #00b3ff;
+    -fx-border-width: 0px;
+    /* -fx-border-width: 2px; */
+    -fx-border-radius: 7px;
+    -fx-text-fill: #000000;
+
+    transition-property: -fx-background-color;
+    transition-duration: 0.125s;
+}
+
+.list-view:hover {
+    /* -fx-background-color: #e2e2e2; */
+}
+
+.list-view .list-cell {
+    -fx-background-color: transparent;
+}
+
+.list-view .list-cell:hover {
+    -fx-background-color: transparent;
+    -fx-text-fill: #00b3ff;
+}
+
+.list-view .list-cell:focused {
+    -fx-background-color: transparent;
+    -fx-fill: #000dff;
+}
+
+.list-view .list-cell:selected {
+    -fx-background-color: transparent;
+    -fx-text-fill: #0077ff;
+}
+
+.list-view .scroll-bar {
+}
+
+.list-view .scroll-bar .increment-button {
+}
+
+.list-view .scroll-bar .decrement-button {
+}
+
+.list-view .scroll-bar .thumb {
+}
+
+.list-view .scroll-bar .thumb:hover {
+}
+
+.list-view .scroll-bar .track {
+}
+
+.list-view .scroll-bar .track-background {
+}
+
+.list-view .scroll-bar .corner {
+}

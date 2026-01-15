@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.CheckMenuItem?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.CustomMenuItem?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.RadioMenuItem?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.SVGPath?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="668.0" prefWidth="1082.0" styleClass="border-pane" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.alphagnfss.testproject.theming.ThemeController">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="MenuItems">
+              <items>
+                  <CheckMenuItem mnemonicParsing="false" text="Unspecified Action" />
+                  <CustomMenuItem mnemonicParsing="false" text="Unspecified Action">
+                    <content>
+                      <CheckBox text="Click Me" />
+                    </content>
+                  </CustomMenuItem>
+                  <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                  <RadioMenuItem mnemonicParsing="false" text="Unspecified Action" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+              </items>
+            </Menu>
+        </menus>
+         <contextMenu>
+            <ContextMenu>
+              <items>
+                <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+              </items>
+            </ContextMenu>
+         </contextMenu>
+      </MenuBar>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="1198.0" styleClass="anchor-pane" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="testButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#restartTheme" text="Reset CSS Button">
+               <tooltip>
+                  <Tooltip text="Empty Tooltip" />
+               </tooltip></Button>
+            <CheckBox layoutX="14.0" layoutY="51.0" mnemonicParsing="false" text="CheckBox">
+               <tooltip>
+                  <Tooltip text="Empty Tooltip" />
+               </tooltip></CheckBox>
+            <ChoiceBox layoutX="14.0" layoutY="80.0" prefWidth="150.0">
+               <tooltip>
+                  <Tooltip text="Empty Tooltip" />
+               </tooltip></ChoiceBox>
+            <ColorPicker layoutX="14.0" layoutY="116.0">
+               <tooltip>
+                  <Tooltip text="Empty Tooltip" />
+               </tooltip></ColorPicker>
+            <ComboBox layoutX="14.0" layoutY="156.0" prefWidth="150.0">
+               <tooltip>
+                  <Tooltip text="Empty Tooltip" />
+               </tooltip></ComboBox>
+            <DatePicker layoutX="14.0" layoutY="195.0">
+               <tooltip>
+                  <Tooltip text="Empty Tooltip" />
+               </tooltip></DatePicker>
+            <Hyperlink layoutX="14.0" layoutY="233.0" text="Hyperlink">
+               <tooltip>
+                  <Tooltip text="Empty Tooltip" />
+               </tooltip></Hyperlink>
+            <ImageView fitHeight="200.0" fitWidth="300.0" layoutX="230.0" layoutY="258.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../../../Socials/Watermark/wm_v1.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="14.0" layoutY="262.0" text="Label">
+               <tooltip>
+                  <Tooltip text="Empty Tooltip" />
+               </tooltip></Label>
+            <ListView fx:id="listView" layoutX="425.0" layoutY="223.0" prefHeight="200.0" prefWidth="300.0">
+               <tooltip>
+                  <Tooltip text="Empty Tooltip" />
+               </tooltip></ListView>
+            <MenuButton layoutX="14.0" layoutY="288.0" mnemonicParsing="false" text="MenuButton">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+               <tooltip>
+                  <Tooltip text="Empty Tooltip" />
+               </tooltip>
+            </MenuButton>
+            <PasswordField layoutX="14.0" layoutY="323.0">
+               <tooltip>
+                  <Tooltip text="Empty Tooltip" />
+               </tooltip></PasswordField>
+            <ProgressBar layoutX="14.0" layoutY="360.0" prefWidth="175.0" progress="0.0">
+               <tooltip>
+                  <Tooltip text="Empty Tooltip" />
+               </tooltip></ProgressBar>
+            <ProgressIndicator layoutX="14.0" layoutY="386.0" progress="0.0">
+               <tooltip>
+                  <Tooltip text="Empty Tooltip" />
+               </tooltip></ProgressIndicator>
+            <RadioButton layoutX="58.0" layoutY="386.0" mnemonicParsing="false" text="RadioButton">
+               <tooltip>
+                  <Tooltip text="Empty Tooltip" />
+               </tooltip></RadioButton>
+            <ScrollBar layoutX="14.0" layoutY="434.0" prefWidth="175.0">
+               <tooltip>
+                  <Tooltip text="Empty Tooltip" />
+               </tooltip></ScrollBar>
+            <ScrollBar layoutX="15.0" layoutY="496.0" orientation="VERTICAL" prefHeight="125.0">
+               <tooltip>
+                  <Tooltip text="Empty Tooltip" />
+               </tooltip></ScrollBar>
+            <Separator layoutX="14.0" layoutY="455.0" prefWidth="175.0">
+               <tooltip>
+                  <Tooltip text="Empty Tooltip" />
+               </tooltip></Separator>
+            <Separator layoutX="40.0" layoutY="496.0" orientation="VERTICAL" prefHeight="125.0">
+               <tooltip>
+                  <Tooltip text="Empty Tooltip" />
+               </tooltip></Separator>
+            <Slider layoutX="14.0" layoutY="464.0" prefWidth="175.0">
+               <tooltip>
+                  <Tooltip text="Empty Tooltip" />
+               </tooltip></Slider>
+            <Slider layoutX="52.0" layoutY="496.0" orientation="VERTICAL" prefHeight="125.0">
+               <tooltip>
+                  <Tooltip text="Empty Tooltip" />
+               </tooltip></Slider>
+            <Spinner layoutX="229.0" layoutY="121.0">
+               <tooltip>
+                  <Tooltip text="Empty Tooltip" />
+               </tooltip></Spinner>
+            <SplitMenuButton layoutX="229.0" layoutY="16.0" mnemonicParsing="false" text="SplitMenuButton">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+               <tooltip>
+                  <Tooltip text="Empty Tooltip" />
+               </tooltip>
+            </SplitMenuButton>
+            <TextArea layoutX="425.0" layoutY="14.0" prefHeight="200.0" prefWidth="300.0" styleClass="text-area">
+               <tooltip>
+                  <Tooltip text="TextArea" />
+               </tooltip></TextArea>
+            <TextField layoutX="229.0" layoutY="51.0">
+               <tooltip>
+                  <Tooltip text="Empty Tooltip" />
+               </tooltip></TextField>
+            <ToggleButton layoutX="229.0" layoutY="86.0" mnemonicParsing="false" text="ToggleButton">
+               <tooltip>
+                  <Tooltip text="Empty Tooltip" />
+               </tooltip></ToggleButton>
+            <Label layoutX="230.0" layoutY="239.0" prefHeight="17.0" prefWidth="200.0" text="Image" />
+            <SVGPath content="M40,60 C42,48 44,30 25,32" layoutX="230.0" layoutY="495.0" scaleX="5.0" scaleY="5.0" />
+            <Accordion layoutX="735.0" layoutY="14.0" prefHeight="200.0" prefWidth="300.0">
+              <panes>
+                <TitledPane animated="false" text="untitled 1">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                  </content>
+                     <tooltip>
+                        <Tooltip text="Empty Tooltip" />
+                     </tooltip>
+                </TitledPane>
+                <TitledPane animated="false" text="untitled 2">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                  </content>
+                     <tooltip>
+                        <Tooltip text="Empty Tooltip" />
+                     </tooltip>
+                </TitledPane>
+                <TitledPane animated="false" text="untitled 3">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                  </content>
+                     <tooltip>
+                        <Tooltip text="Empty Tooltip" />
+                     </tooltip>
+                </TitledPane>
+              </panes>
+            </Accordion>
+            <TabPane layoutX="425.0" layoutY="429.0" prefHeight="200.0" prefWidth="300.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab text="Untitled Tab 1">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                  </content>
+                     <tooltip>
+                        <Tooltip text="Empty Tooltip" />
+                     </tooltip>
+                </Tab>
+              </tabs>
+               <tooltip>
+                  <Tooltip text="Empty Tooltip" />
+               </tooltip>
+            </TabPane>
+            <SplitPane dividerPositions="0.5022421524663677" layoutX="735.0" layoutY="223.0" prefHeight="200.0" prefWidth="300.0">
+              <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+              </items>
+            </SplitPane>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
